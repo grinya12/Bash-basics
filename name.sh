@@ -1,7 +1,7 @@
 #!/bin/bash
 
-name=$1
-surname=$2
+name=$name
+surname=$surname
 echo $name
 echo $surname
  
