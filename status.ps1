@@ -1,0 +1,1 @@
+﻿Get-Content C:\Windows\Logs\StorGroupPolicy.log | Where-Object {$_ -like "*status*"} | Set-Content ~\Desktop\status.txt
